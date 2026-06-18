@@ -512,7 +512,7 @@ export default function App() {
   const [selectedIntercityDest, setSelectedIntercityDest] = useState('Galle');
 
   useEffect(() => {
-    const MAPS_KEY = process.env.GOOGLE_MAPS_PLATFORM_KEY || '';
+    const MAPS_KEY = (typeof process !== 'undefined' && process.env && process.env.GOOGLE_MAPS_PLATFORM_KEY) || (import.meta as any).env?.VITE_GOOGLE_MAPS_PLATFORM_KEY || '';
     if (!MAPS_KEY) {
       console.log('No Google Maps API Key found, operating in high-fidelity offline lookup mode.');
       return;
