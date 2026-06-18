@@ -1,0 +1,6 @@
+{
+  "name": "Sri Lanka Travel & Tour Planner",
+  "description": "Premium stress-free travel planning and curated tour experiences across Sri Lanka with custom route visualization, interactive itineraries, and direct contact booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
