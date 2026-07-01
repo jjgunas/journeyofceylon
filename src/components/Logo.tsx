@@ -16,7 +16,7 @@ export function JourneyOfCeylonLogo({
   taglineColor = '#2d4c25',
   brandColor = '#477637'
 }: LogoProps) {
-  const [logoSrc, setLogoSrc] = React.useState('/7073cc79-52b4-4861-b173-f4c7353aefc7_removalai_preview.png');
+  const [logoSrc, setLogoSrc] = React.useState('/logo-king.png');
   const [useFallback, setUseFallback] = React.useState(false);
 
   const handleLogoError = () => {
