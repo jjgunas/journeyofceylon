@@ -37,7 +37,6 @@ import {
   Menu
 } from 'lucide-react';
 
-import { JourneyOfCeylonLogo } from './components/Logo';
 
 // Static destinations list for high-fidelity Ceylon search autocomplete
 interface Destination {
